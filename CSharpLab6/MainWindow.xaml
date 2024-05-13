@@ -1,0 +1,168 @@
+﻿<Window x:Class="CSharpLab6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSharpLab6"
+        xmlns:typeswalls="clr-namespace:CSharpLab6.Model"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <TabControl>
+        <!--SelectionChanged="TabItem_Loaded"-->
+        <TabItem x:Name="tabClients" Header="Client" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <GroupBox Header="Edit Client" VerticalAlignment="Stretch" HorizontalAlignment="Left" Margin="10">
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Name:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+                        <TextBox Text="{Binding SelectedClient.Name, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" Margin="5" MinWidth="100"/>
+
+                        <TextBlock Text="Last Name:" Grid.Row="1" Grid.Column="0" Margin="5"/>
+                        <TextBox Text="{Binding SelectedClient.LastName, Mode=TwoWay}" Grid.Row="1" Grid.Column="1" Margin="5"/>
+
+                        <TextBlock Text="Further Name:" Grid.Row="2" Grid.Column="0" Margin="5"/>
+                        <TextBox Text="{Binding SelectedClient.FurtherName, Mode=TwoWay}" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+                        <StackPanel Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                            <Button Content="Добавить" Command="{Binding AddClientCommand}" Margin="5"/>
+                            <Button Content="Изменить" Command="{Binding UpdateClientCommand}" Margin="5"/>
+                            <Button Content="Удалить" Command="{Binding DeleteClientCommand}" Margin="5"/>
+                            <Button Content="Экспорт JSON" Command="{Binding ExportToJsonCommand}" Margin="5"/>
+                            <Button Content="Импорт JSON" Command="{Binding ImportFromJsonCommand}" Margin="5"/>
+                        </StackPanel>
+                    </Grid>
+                </GroupBox>
+
+                <DataGrid ItemsSource="{Binding Clients}" AutoGenerateColumns="False" Grid.Row="0" Grid.Column="1" Margin="10" SelectionChanged="DataGrid_SelectionClientChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                        <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}"/>
+                        <DataGridTextColumn Header="Further Name" Binding="{Binding FurtherName}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </TabItem>
+        <TabItem x:Name="tabClimbingBuildings" Header="Climbing Building">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <GroupBox Header="Edit Climbing Building" VerticalAlignment="Stretch" HorizontalAlignment="Left" Margin="10">
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Type:" Grid.Row="1" Grid.Column="0" Margin="5"/>
+                        <ComboBox Grid.Row="1" Grid.Column="1" Margin="5" SelectedItem="{Binding SelectedBuilding.Type, Mode=TwoWay}">
+                            <ComboBox.ItemsSource>
+                                <x:Array Type="{x:Type typeswalls:ClimbingWallType}">
+                                    <typeswalls:ClimbingWallType>None</typeswalls:ClimbingWallType>
+                                    <typeswalls:ClimbingWallType>Difficalty</typeswalls:ClimbingWallType>
+                                    <typeswalls:ClimbingWallType>Speed</typeswalls:ClimbingWallType>
+                                    <typeswalls:ClimbingWallType>Bouldering</typeswalls:ClimbingWallType>
+                                </x:Array>
+                            </ComboBox.ItemsSource>
+                        </ComboBox>
+
+                        <TextBlock Text="Address:" Grid.Row="2" Grid.Column="0" Margin="5"/>
+                        <TextBox Text="{Binding SelectedBuilding.Address, Mode=TwoWay}" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+                        <TextBlock Text="City:" Grid.Row="3" Grid.Column="0" Margin="5"/>
+                        <TextBox Text="{Binding SelectedBuilding.City, Mode=TwoWay}" Grid.Row="3" Grid.Column="1" Margin="5"/>
+
+                        <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                            <Button Content="Добавить" Command="{Binding AddBuildingCommand}" Margin="5"/>
+                            <Button Content="Изменить" Command="{Binding UpdateBuildingCommand}" Margin="5"/>
+                            <Button Content="Удалить" Command="{Binding DeleteBuildingCommand}" Margin="5"/>
+                            <Button Content="Экспорт JSON" Command="{Binding ExportToJsonCommand}" Margin="5"/>
+                            <Button Content="Импорт JSON" Command="{Binding ImportFromJsonCommand}" Margin="5"/>
+                        </StackPanel>
+                    </Grid>
+                </GroupBox>
+
+                <DataGrid ItemsSource="{Binding Buildings}" AutoGenerateColumns="False" Grid.Row="0" Grid.Column="1" Margin="10" SelectionChanged="DataGrid_SelectionBuildingChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Type" Binding="{Binding Type}"/>
+                        <DataGridTextColumn Header="Address" Binding="{Binding Address}"/>
+                        <DataGridTextColumn Header="City" Binding="{Binding City}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </TabItem>
+        <TabItem x:Name="tabVisits" Header="Visits" Height="20" VerticalAlignment="Top" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <GroupBox Header="Edit Visit" VerticalAlignment="Stretch" HorizontalAlignment="Left" Margin="10">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Client:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+                        <ComboBox Grid.Row="0" Grid.Column="1" Margin="5" SelectedItem="{Binding SelectedVisit.Client.LastName, Mode=TwoWay}"
+                            ItemsSource="{Binding ClientsLastName, Mode=TwoWay}">
+                        </ComboBox>
+
+                        <TextBlock Text="Climbing Building:" Grid.Row="1" Grid.Column="0" Margin="5"/>
+                        <ComboBox Grid.Row="1" Grid.Column="1" Margin="5" SelectedItem="{Binding SelectedVisit.ClimbingBuilding.Address, Mode=TwoWay}"
+                            ItemsSource="{Binding BuildingsAddress, Mode=TwoWay}">
+                        </ComboBox>
+                        
+                        <TextBlock Text="Visit Date:" Grid.Row="2" Grid.Column="0" Margin="5"/>
+                        <DatePicker SelectedDate="{Binding SelectedVisit.VisitDate, Mode=TwoWay}" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+                        <StackPanel Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                            <Button Content="Добавить" Command="{Binding AddVisitCommand}" Margin="5"/>
+                            <Button Content="Изменить" Command="{Binding UpdateVisitCommand}" Margin="5"/>
+                            <Button Content="Удалить" Command="{Binding DeleteVisitCommand}" Margin="5"/>
+                        </StackPanel>
+                    </Grid>
+                </GroupBox>
+
+                <DataGrid ItemsSource="{Binding Visits}" AutoGenerateColumns="False" Grid.Row="0" Grid.Column="1" Margin="10" SelectionChanged="DataGrid_SelectionVisitChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Client" Binding="{Binding Client.LastName}"/>
+                        <DataGridTextColumn Header="Climbing Building" Binding="{Binding ClimbingBuilding.Address}"/>
+                        <DataGridTextColumn Header="Visit Date" Binding="{Binding VisitDate}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

@@ -1,0 +1,431 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|c:\\users\\threeai\\desktop\\c#\u043B\u0430\u0431\u044B\\csharplab6\\csharplab6\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\csharplab6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\csharplab6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|c:\\users\\threeai\\desktop\\c#\u043B\u0430\u0431\u044B\\csharplab6\\csharplab6\\viewmodel\\services\\visitviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\viewmodel\\services\\visitviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\viewmodel\\repositories\\climbingbuildingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\viewmodel\\repositories\\climbingbuildingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\viewmodel\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\viewmodel\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\viewmodel\\repositories\\visitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\viewmodel\\repositories\\visitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\model\\visit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\model\\visit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\viewmodel\\services\\climbingbuildingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\viewmodel\\services\\climbingbuildingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\viewmodel\\services\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\viewmodel\\services\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|c:\\users\\threeai\\desktop\\c#\u043B\u0430\u0431\u044B\\csharplab6\\csharplab6\\migrations\\20240512104748_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\migrations\\20240512104748_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\dbconnection\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\dbconnection\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512104227_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSharpLab6\\Migrations\\20240512104227_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512104051_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSharpLab6\\Migrations\\20240512104051_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512103609_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSharpLab6\\Migrations\\20240512103609_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512103453_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSharpLab6\\Migrations\\20240512103453_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512102552_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSharpLab6\\Migrations\\20240512102552_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240511144616_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSharpLab6\\Migrations\\20240511144616_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\csharplab6.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0937157F-A16C-446B-8A31-430C6C8CA8D6}|CSharpLab6\\CSharpLab6.csproj|solutionrelative:csharplab6\\csharplab6.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\csharplab6\\obj\\debug\\net8.0-windows\\app.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:csharplab6\\obj\\debug\\net8.0-windows\\app.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 173,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\DbConnection\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\DbConnection\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\DbConnection\\MyDbContext.cs",
+              "RelativeToolTip": "CSharpLab6\\DbConnection\\MyDbContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T20:12:58.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VisitRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Repositories\\VisitRepository.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\ViewModel\\Repositories\\VisitRepository.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Repositories\\VisitRepository.cs",
+              "RelativeToolTip": "CSharpLab6\\ViewModel\\Repositories\\VisitRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAywDgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T14:44:02.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\ViewModel\\Repositories\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "CSharpLab6\\ViewModel\\Repositories\\ClientRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwCkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:18:22.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Services\\ClientViewModel.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\ViewModel\\Services\\ClientViewModel.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Services\\ClientViewModel.cs",
+              "RelativeToolTip": "CSharpLab6\\ViewModel\\Services\\ClientViewModel.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwEoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:35:52.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClimbingBuildingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Repositories\\ClimbingBuildingRepository.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\ViewModel\\Repositories\\ClimbingBuildingRepository.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Repositories\\ClimbingBuildingRepository.cs",
+              "RelativeToolTip": "CSharpLab6\\ViewModel\\Repositories\\ClimbingBuildingRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:12:39.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240512104748_init.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512104748_init.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\Migrations\\20240512104748_init.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512104748_init.cs",
+              "RelativeToolTip": "CSharpLab6\\Migrations\\20240512104748_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:48:10.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Visit.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Model\\Visit.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\Model\\Visit.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Model\\Visit.cs",
+              "RelativeToolTip": "CSharpLab6\\Model\\Visit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:53:50.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VisitViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Services\\VisitViewModel.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\ViewModel\\Services\\VisitViewModel.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Services\\VisitViewModel.cs",
+              "RelativeToolTip": "CSharpLab6\\ViewModel\\Services\\VisitViewModel.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAgwH0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T14:52:42.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CSharpLab6.csproj",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\CSharpLab6.csproj",
+              "RelativeDocumentMoniker": "CSharpLab6\\CSharpLab6.csproj",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\CSharpLab6.csproj",
+              "RelativeToolTip": "CSharpLab6\\CSharpLab6.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-05T20:07:39.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Model\\Client.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\Model\\Client.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Model\\Client.cs",
+              "RelativeToolTip": "CSharpLab6\\Model\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:46:22.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClimbingBuildingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Services\\ClimbingBuildingViewModel.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\ViewModel\\Services\\ClimbingBuildingViewModel.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\ViewModel\\Services\\ClimbingBuildingViewModel.cs",
+              "RelativeToolTip": "CSharpLab6\\ViewModel\\Services\\ClimbingBuildingViewModel.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAIAwwHgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:57:03.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CSharpLab6\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\MainWindow.xaml",
+              "RelativeToolTip": "CSharpLab6\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T20:03:55.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CSharpLab6\\MainWindow.xaml.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAA6wD8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T14:08:42.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240512104051_init.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512104051_init.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\Migrations\\20240512104051_init.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512104051_init.cs",
+              "RelativeToolTip": "CSharpLab6\\Migrations\\20240512104051_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:40:51.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240512104227_init.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512104227_init.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\Migrations\\20240512104227_init.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512104227_init.cs",
+              "RelativeToolTip": "CSharpLab6\\Migrations\\20240512104227_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:42:27.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\AssemblyInfo.cs",
+              "RelativeToolTip": "CSharpLab6\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T20:19:34.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240512103453_init.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512103453_init.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\Migrations\\20240512103453_init.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512103453_init.cs",
+              "RelativeToolTip": "CSharpLab6\\Migrations\\20240512103453_init.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:34:53.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240512103609_init.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512103609_init.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\Migrations\\20240512103609_init.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512103609_init.cs",
+              "RelativeToolTip": "CSharpLab6\\Migrations\\20240512103609_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:36:10.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240512102552_init.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512102552_init.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\Migrations\\20240512102552_init.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240512102552_init.cs",
+              "RelativeToolTip": "CSharpLab6\\Migrations\\20240512102552_init.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:25:53.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240511144616_init.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240511144616_init.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\Migrations\\20240511144616_init.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\Migrations\\20240511144616_init.cs",
+              "RelativeToolTip": "CSharpLab6\\Migrations\\20240511144616_init.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T14:46:16.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CSharpLab6",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\CSharpLab6.csproj",
+              "RelativeDocumentMoniker": "CSharpLab6\\CSharpLab6.csproj",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\CSharpLab6.csproj",
+              "RelativeToolTip": "CSharpLab6\\CSharpLab6.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-07T23:42:09.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\App.xaml",
+              "RelativeDocumentMoniker": "CSharpLab6\\App.xaml",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\App.xaml",
+              "RelativeToolTip": "CSharpLab6\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-07T20:38:44.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\App.xaml.cs",
+              "RelativeToolTip": "CSharpLab6\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T21:22:36.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "CSharpLab6\\obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\ThreeAi\\Desktop\\C#\u043B\u0430\u0431\u044B\\CSharpLab6\\CSharpLab6\\obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "RelativeToolTip": "CSharpLab6\\obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T21:22:23.372Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
