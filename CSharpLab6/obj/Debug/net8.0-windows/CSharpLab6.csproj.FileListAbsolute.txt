@@ -88,11 +88,9 @@ C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\bin\Debug\net8.0-windo
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\CSharpLab6.csproj.AssemblyReference.cache
-C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\CSharpLab6_MarkupCompile.cache
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\CSharpLab6_MarkupCompile.lref
-C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\CSharpLab6.g.resources
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\CSharpLab6.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\CSharpLab6.AssemblyInfoInputs.cache
@@ -119,3 +117,6 @@ C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\bin\Debug\net8.0-windo
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\bin\Debug\net8.0-windows\runtimes\win7-x64\native\libuv.dll
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\bin\Debug\net8.0-windows\runtimes\win7-x86\native\libuv.dll
 C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\View\MainWindow.g.cs
+C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\View\MainWindow.baml
+C:\Users\ThreeAi\Desktop\C#лабы\CSharpLab6\CSharpLab6\obj\Debug\net8.0-windows\CSharpLab6.sourcelink.json

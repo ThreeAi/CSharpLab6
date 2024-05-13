@@ -54,7 +54,10 @@ namespace CSharpLab6.ViewModel.Repositories
 
         public void DeleteVisit(Visit visit)
         {
-            _context.Visits.Remove(visit);
+            if (_context.Visits.Contains(visit))
+            {
+                _context.Visits.Remove(visit);
+            }
             _context.SaveChanges();
         }
     }

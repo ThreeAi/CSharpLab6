@@ -131,6 +131,35 @@ namespace CSharpLab6.ViewModel.Services
             }
         }
 
+        private RelayCommand _updateVisitCommand;
+
+        public RelayCommand UpdateVisitCommand
+        {
+            get
+            {
+                if (_updateVisitCommand != null)
+                    return _updateVisitCommand;
+                else
+                {
+                    _updateVisitCommand = new RelayCommand(
+                        () => ExecuteUpdateVisitCommand(),
+                        () => SelectedVisit != null
+                    );
+
+                    return _updateVisitCommand;
+                }
+            }
+        }
+
+        private void ExecuteUpdateVisitCommand()
+        {
+            if (SelectedVisit != null)
+            {
+                _visitRepository.UpdateVisit(SelectedVisit);
+                LoadVisits();
+            }
+        }
+
         public void UpdateSelectedVisit(Visit selectedVisit)
         {
             SelectedVisit = selectedVisit;
