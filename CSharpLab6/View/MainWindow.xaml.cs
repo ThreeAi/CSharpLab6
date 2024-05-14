@@ -11,6 +11,7 @@ using System.Windows.Shapes;
 using CSharpLab6.DbConnection;
 using CSharpLab6.Model;
 using CSharpLab6.ViewModel.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace CSharpLab6
 {
@@ -57,21 +58,72 @@ namespace CSharpLab6
             }
         }
 
-        //private void TabItem_Loaded(object sender, RoutedEventArgs e)
-        //{
-        //    var viewModel = tabVisits.DataContext as VisitViewModel;
-        //    viewModel?.LoadVisits();
-        //}
-
         private void Fill()
         {
-            //Client client = new Client();
-            //client.Name = "artem";
-            //client.LastName = "lastname";
-            //client.FurtherName = "furthername";
+            Client client1 = new Client()
+            {
+                Name = "Artem",
+                LastName = "Alexandrov",
+                FurtherName = "Alexeevich"
+            };
 
-            //Context.Clients.Add(client);
-            //Context.SaveChanges();
+            Client client2 = new Client()
+            {
+                Name = "Ivan",
+                LastName = "Ivanov",
+                FurtherName = "Ivanovich"
+            };
+
+            Context.Clients.AddRange(client1, client2);
+
+            ClimbingBuilding building1 = new ClimbingBuilding()
+            {
+                Address = "Gazovaia st. 13",
+                City = "St.Peterurg",
+                Type = ClimbingWallType.Difficalty
+            };
+
+            ClimbingBuilding building2 = new ClimbingBuilding()
+            {
+                Address = "Lomonosova st. 4",
+                City = "Moscow",
+                Type = ClimbingWallType.Bouldering
+            };
+
+            Context.ClimbingBuildings.AddRange(building1, building2);
+
+            DateTime visitDate1 = DateTime.Now.AddDays(-7);
+            DateTime visitDate2 = DateTime.Now.AddDays(-3);
+
+            Visit visit1 = new Visit()
+            {
+                ClientId = client1.ClientId,
+                Client = client1,
+                BuildingId = building1.BuildingId,
+                ClimbingBuilding = building2,
+                VisitDate = visitDate1.ToUniversalTime()
+            };
+
+            Visit visit3 = new Visit()
+            {
+                ClientId = client1.ClientId,
+                Client = client1,
+                BuildingId = building1.BuildingId,
+                ClimbingBuilding = building2,
+                VisitDate = visitDate2.ToUniversalTime()
+            };
+
+            Visit visit2 = new Visit()
+            {
+                ClientId = client2.ClientId,
+                Client = client2,
+                BuildingId = building2.BuildingId,
+                ClimbingBuilding = building1,
+                VisitDate = visitDate2.ToUniversalTime(),
+            };
+
+            Context.Visits.AddRange(visit1, visit2, visit3);
+            Context.SaveChanges();
         }
     }
 }
