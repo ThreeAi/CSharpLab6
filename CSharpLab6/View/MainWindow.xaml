@@ -151,6 +151,7 @@
                             <Button Content="Добавить" Command="{Binding AddVisitCommand}" Margin="5"/>
                             <Button Content="Изменить" Command="{Binding UpdateVisitCommand}" Margin="5"/>
                             <Button Content="Удалить" Command="{Binding DeleteVisitCommand}" Margin="5"/>
+                            <Button Content="Обновить списки" Command="{Binding ReloadVisitCommand}" Margin="5"/>
                         </StackPanel>
                     </Grid>
                 </GroupBox>
